@@ -25,7 +25,7 @@ export class AppComponent {
 
     };
 
-    this.http.post('http://localhost:9090/api/calculadora',calculo).subscribe(response => this.response = response)
+    this.http.post('https://calculadoraflavio.herokuapp.com/api/calculadora',calculo).subscribe(response => this.response = response)
 
 
 
